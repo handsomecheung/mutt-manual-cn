@@ -72,7 +72,7 @@ div.note {
 </p>
 <p>
 <b>译者前言：</b>
-Mutt是一个功能强大的邮件客户端，但要配置它并不简单，英文手册又让很多人望而生畏。我深受自由软件精神的感动，希望能为自由软件的传播作一点贡献，所以就有了这本手册。由于水平有限，我不能保证所有内容都准确无误，拿不准的地方不敢贸然翻译，留下原文。如果你发现文中的错误，可以来信指出，哪怕是错别字也可以。任何对于本手册质量有提高的建议我都会虚心接受。另外，很多技术词汇无法找到让人满意的翻译，所以如果你能够流畅阅读英文文档，那么最好还是浏览<a href="manual_en.html" target="_blank">原手册</a>。这里是Mutt的官方网站：<a href=http://www.mutt.org target="_blank">http://www.mutt.org</a>。
+Mutt是一个功能强大的邮件客户端，但要配置它并不简单，英文手册又让很多人望而生畏。我深受自由软件精神的感动，希望能为自由软件的传播作一点贡献，所以就有了这本手册。由于水平有限，我不能保证所有内容都准确无误，拿不准的地方不敢贸然翻译，留下原文。如果你发现文中的错误，可以来信指出，哪怕是错别字也可以。任何对于本手册质量有提高的建议我都会虚心接受。另外，很多技术词汇无法找到让人满意的翻译，所以如果你能够流畅阅读英文文档，那么最好还是浏览<a href="mutt-manual-1.5.19-en.html" target="_blank">原手册</a>。这里是Mutt的官方网站：<a href=http://www.mutt.org target="_blank">http://www.mutt.org</a>。
 </p>
 <hr>
 <div><div class="author"><h3 class="author"><span class="firstname">Michael</span> <span class="surname">Elkins</span></h3>
@@ -623,10 +623,10 @@ Mutt是一个功能强大的邮件客户端，但要配置它并不简单，英�
 <pre class="screen">mutt -h(译者注：原手册为"-v")</pre>
 <p>在命令用法说明中，（“<span class="quote">{}</span>”）则是指一组选项，它们中至少使用一个，方括号（“<span class="quote">[ ]</span>”）表示可选参数，其中有三个点的表示参数可以重复使用任意次。</p></div>
 <div class="sect1" lang="en"><div class="titlepage"><div><div><a id="copyright"></a><h2 class="title" style="clear:both">7.版权声明</h2></div></div></div>
-	<p>Mutt的版权1996-2009，为Michael R. Elkins<code class="email">&lt;<a href="mailto:me@mutt.org">me@mutt.org</a>&gt;</code>等所有。</p>
-	<p>此软件为自由软件，你可以在自由软件基金会发布的GNU通用公共许可证（可以是第2版或者之后的任意版本）下的重新分配以及修改它。</p>
-	<p>这项计划的发布是希望它能有所用途，但它没有任何担保，甚至连必要的商业或其他用途的担保都没有。更多细节请参阅GNU通用公共许可证。</p>
-	<p>你应该已经收到一份随软件一起发布的GNU通用公共许可证;如果还没有，写信给自由软件基金会,51 Franklin Street,Fifth Floor,Boston,MA 02110-1301,USA。</p></div></div>
+    <p>Mutt的版权1996-2009，为Michael R. Elkins<code class="email">&lt;<a href="mailto:me@mutt.org">me@mutt.org</a>&gt;</code>等所有。</p>
+    <p>此软件为自由软件，你可以在自由软件基金会发布的GNU通用公共许可证（可以是第2版或者之后的任意版本）下的重新分配以及修改它。</p>
+    <p>这项计划的发布是希望它能有所用途，但它没有任何担保，甚至连必要的商业或其他用途的担保都没有。更多细节请参阅GNU通用公共许可证。</p>
+    <p>你应该已经收到一份随软件一起发布的GNU通用公共许可证;如果还没有，写信给自由软件基金会,51 Franklin Street,Fifth Floor,Boston,MA 02110-1301,USA。</p></div></div>
 
 <div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a id="gettingstarted"></a>第2章.使用入门</h2></div></div></div>
 <div class="toc">
@@ -701,11 +701,11 @@ bind editor &lt;delete&gt; backspace
 <span class="emphasis"><em>\e[Ps;Ps;..</em></span><span class="emphasis"><em>Ps;m</em></span></pre>
 <p><span class="emphasis"><em>Ps</em></span>可以是表2.7“ANSI转义序列”中所示的任一种转义码。</p>
 <div class="table"><a id="tab-ansi-esc"></a><p class="title"><b>表2.7.</b><b>ANSI转义序列</b></p>
-	<table border="1"><colgroup><col><col></colgroup><thead><tr><th>转义码</th><th>描述</th></tr></thead><tbody><tr><td>0</td><td>关闭所有属性</td></tr><tr><td>1</td><td>粗体</td></tr><tr><td>4</td><td>下划线</td></tr><tr><td>5</td><td>闪烁</td></tr><tr><td>7</td><td>Reverse video on</td></tr><tr><td>3&lt;color&gt;</td><td>前景颜色是<span class="emphasis"><em>&lt;color&gt;</em></span> （见表 2.8 “颜色序列” ）</td></tr><tr><td>4&lt;color&gt;</td><td>背景颜色是<span class="emphasis"><em>&lt;color&gt;</em></span> （见表 2.8 “颜色序列” ）</td></tr></tbody></table></div>
+    <table border="1"><colgroup><col><col></colgroup><thead><tr><th>转义码</th><th>描述</th></tr></thead><tbody><tr><td>0</td><td>关闭所有属性</td></tr><tr><td>1</td><td>粗体</td></tr><tr><td>4</td><td>下划线</td></tr><tr><td>5</td><td>闪烁</td></tr><tr><td>7</td><td>Reverse video on</td></tr><tr><td>3&lt;color&gt;</td><td>前景颜色是<span class="emphasis"><em>&lt;color&gt;</em></span> （见表 2.8 “颜色序列” ）</td></tr><tr><td>4&lt;color&gt;</td><td>背景颜色是<span class="emphasis"><em>&lt;color&gt;</em></span> （见表 2.8 “颜色序列” ）</td></tr></tbody></table></div>
 <div class="table"><a id="tab-color"></a><p class="title"><b>表2.8.</b><b>颜色序列</b></p>
-	<table border="1"><colgroup><col><col></colgroup><thead><tr><th>颜色代码</th><th>颜色</th></tr></thead><tbody><tr><td>0</td><td>黑色</td></tr><tr><td>1</td><td>红色</td></tr><tr><td>2</td><td>绿色</td></tr><tr><td>3</td><td>黄色</td></tr><tr><td>4</td><td>蓝色</td></tr><tr><td>5</td><td>红紫色</td></tr><tr><td>6</td><td>蓝绿色</td></tr><tr><td>7</td><td>白色</td></tr></tbody></table></div><p>Mutt使用这些属性来处理<code class="literal">text/enriched</code>格式的邮件，通过外部的脚本他们也可以用来达到高亮显示的目的。</p><div class="note"><h3 class="title">注意</h3><p>如果你改变了显示的颜色，比如改变了xterm的color2，那么此颜色将代替绿色显示。</p></div><div class="note"><h3 class="title">注意</h3><p>请注意pager中搜索采用的是正则表达式，这和index中使用的更复杂的模式搜索不太一样。这是因为pager只需实现简单的文本搜索，而index提供了邮件几种属性的逻辑运算。</p></div></div>
+    <table border="1"><colgroup><col><col></colgroup><thead><tr><th>颜色代码</th><th>颜色</th></tr></thead><tbody><tr><td>0</td><td>黑色</td></tr><tr><td>1</td><td>红色</td></tr><tr><td>2</td><td>绿色</td></tr><tr><td>3</td><td>黄色</td></tr><tr><td>4</td><td>蓝色</td></tr><tr><td>5</td><td>红紫色</td></tr><tr><td>6</td><td>蓝绿色</td></tr><tr><td>7</td><td>白色</td></tr></tbody></table></div><p>Mutt使用这些属性来处理<code class="literal">text/enriched</code>格式的邮件，通过外部的脚本他们也可以用来达到高亮显示的目的。</p><div class="note"><h3 class="title">注意</h3><p>如果你改变了显示的颜色，比如改变了xterm的color2，那么此颜色将代替绿色显示。</p></div><div class="note"><h3 class="title">注意</h3><p>请注意pager中搜索采用的是正则表达式，这和index中使用的更复杂的模式搜索不太一样。这是因为pager只需实现简单的文本搜索，而index提供了邮件几种属性的逻辑运算。</p></div></div>
 <div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="threads"></a>4.3 Threaded模式</h3></div></div></div>
-	<p>当信箱以<span class="emphasis"><em>thread</em></span>方式排序的时候，在<span class="emphasis"><em>index</em></span>和<span class="emphasis"><em>pager</em></span>模式中有一些额外的功能可用，如表2.9“thread模式常用键”所示。</p><div class="table"><a id="tab-key-threads"></a><p class="title"><b>表2.9.</b><b>thread模式常用键</b></p><table border="1"><colgroup><col><col><col></colgroup><thead><tr><th>按键</th><th>功能</th><th>描述</th></tr></thead><tbody><tr><td>^D</td><td><code class="literal">&lt;delete-thread&gt;</code></td><td>删除当前thread中的所有邮件</td></tr><tr><td>^U</td><td><code class="literal">&lt;undelete-thread&gt;</code></td><td>取消删除当前thread中的所有邮件</td></tr><tr><td>^N</td><td><code class="literal">&lt;next-thread&gt;</code></td><td>跳转到下一个thread的开始处</td></tr><tr><td>^P</td><td><code class="literal">&lt;previous-thread&gt;</code></td><td>跳转到上一个thread的开始处</td></tr><tr><td>^R</td><td><code class="literal">&lt;read-thread&gt;</code></td><td>将当前thread标记为已读</td></tr><tr><td>Esc d</td><td><code class="literal">&lt;delete-subthread&gt;</code></td><td>删除当前子thread中的所有邮件</td></tr><tr><td>Esc u</td><td><code class="literal">&lt;undelete-subthread&gt;</code></td><td>取消删除当前子thread中的所有邮件</td></tr><tr><td>Esc n</td><td><code class="literal">&lt;next-subthread&gt;</code></td><td>跳转到下一个子thread的开始处</td></tr><tr><td>Esc p</td><td><code class="literal">&lt;previous-subthread&gt;</code></td><td>跳转到上一个子thread的开始处</td></tr><tr><td>Esc r</td><td><code class="literal">&lt;read-subthread&gt;</code></td><td>将当前子thread标记为已读</td></tr><tr><td>Esc t</td><td><code class="literal">&lt;tag-thread&gt;</code></td><td>切换标记当前thread</td></tr><tr><td>Esc v</td><td><code class="literal">&lt;collapse-thread&gt;</code></td><td>切换折叠当前thread</td></tr><tr><td>Esc V</td><td><code class="literal">&lt;collapse-all&gt;</code></td><td>切换折叠所有thread</td></tr><tr><td>P</td><td><code class="literal">&lt;parent-message&gt;</code></td><td>跳转到父邮件</td></tr></tbody></table></div><div class="note"><h3 class="title">注意</h3><p>折叠一个thread会只显示这个thread的第一封邮件，隐藏其它邮件。thread包含了很多邮件时，你在屏幕上只会看到几个thread，此时这个功能就非常有用了。见$index_format中的序列%M。例如，你可以在$index_format中使用“%?M?(#%03M)&amp;(%4l)?“来显示隐藏邮件的数量，如果thread是折叠的。</p></div><p>参见：$strict_threads</p></div>
+    <p>当信箱以<span class="emphasis"><em>thread</em></span>方式排序的时候，在<span class="emphasis"><em>index</em></span>和<span class="emphasis"><em>pager</em></span>模式中有一些额外的功能可用，如表2.9“thread模式常用键”所示。</p><div class="table"><a id="tab-key-threads"></a><p class="title"><b>表2.9.</b><b>thread模式常用键</b></p><table border="1"><colgroup><col><col><col></colgroup><thead><tr><th>按键</th><th>功能</th><th>描述</th></tr></thead><tbody><tr><td>^D</td><td><code class="literal">&lt;delete-thread&gt;</code></td><td>删除当前thread中的所有邮件</td></tr><tr><td>^U</td><td><code class="literal">&lt;undelete-thread&gt;</code></td><td>取消删除当前thread中的所有邮件</td></tr><tr><td>^N</td><td><code class="literal">&lt;next-thread&gt;</code></td><td>跳转到下一个thread的开始处</td></tr><tr><td>^P</td><td><code class="literal">&lt;previous-thread&gt;</code></td><td>跳转到上一个thread的开始处</td></tr><tr><td>^R</td><td><code class="literal">&lt;read-thread&gt;</code></td><td>将当前thread标记为已读</td></tr><tr><td>Esc d</td><td><code class="literal">&lt;delete-subthread&gt;</code></td><td>删除当前子thread中的所有邮件</td></tr><tr><td>Esc u</td><td><code class="literal">&lt;undelete-subthread&gt;</code></td><td>取消删除当前子thread中的所有邮件</td></tr><tr><td>Esc n</td><td><code class="literal">&lt;next-subthread&gt;</code></td><td>跳转到下一个子thread的开始处</td></tr><tr><td>Esc p</td><td><code class="literal">&lt;previous-subthread&gt;</code></td><td>跳转到上一个子thread的开始处</td></tr><tr><td>Esc r</td><td><code class="literal">&lt;read-subthread&gt;</code></td><td>将当前子thread标记为已读</td></tr><tr><td>Esc t</td><td><code class="literal">&lt;tag-thread&gt;</code></td><td>切换标记当前thread</td></tr><tr><td>Esc v</td><td><code class="literal">&lt;collapse-thread&gt;</code></td><td>切换折叠当前thread</td></tr><tr><td>Esc V</td><td><code class="literal">&lt;collapse-all&gt;</code></td><td>切换折叠所有thread</td></tr><tr><td>P</td><td><code class="literal">&lt;parent-message&gt;</code></td><td>跳转到父邮件</td></tr></tbody></table></div><div class="note"><h3 class="title">注意</h3><p>折叠一个thread会只显示这个thread的第一封邮件，隐藏其它邮件。thread包含了很多邮件时，你在屏幕上只会看到几个thread，此时这个功能就非常有用了。见$index_format中的序列%M。例如，你可以在$index_format中使用“%?M?(#%03M)&amp;(%4l)?“来显示隐藏邮件的数量，如果thread是折叠的。</p></div><p>参见：$strict_threads</p></div>
 <div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="reading-misc"></a>4.4.其它功能</h3></div></div></div><p><span class="emphasis"><em>index</em></span>和<span class="emphasis"><em>pager</em></span>菜单还有一些有趣的功能：</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">&lt;create-alias&gt;</code> <a id="create-alias">（默认：a）</a></span></dt>
 <dd><p>根据目前邮件（或输入一个新的）创建一个新的别名。一旦完成编辑，一个别名将添加到$alias_file变量指定的文件中，以便将来使用。</p><div class="note"><h3 class="title">注意</h3><p>Mutt启动时不会读变量$alias_file指定的文件，所以你必须用命令source来指定文件。</p></div></dd>
 <dt><span class="term"><code class="literal">&lt;check-traditional-pgp&gt;</code>（默认：Esc P）</span></dt>
@@ -735,18 +735,18 @@ bind editor &lt;delete&gt; backspace
 <dt><span class="term"><code class="literal">&lt;skip-quoted&gt;</code><a id="skip-quoted">（默认：S）</a></span></dt>
 <dd><p>在内置pager中，这个功能可以跳过引文，到下一处不是引文的地方。</p></dd></dl></div></div></div>
 <div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="sending">5.发送邮件</h2></div></div></div>
-		<div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="sending-intro"></a>5.1.简介</h3></div></div></div>
-		<p>表2.10 “发送邮件常用按键”列出的按键可在<span class="emphasis"><em>index</em></span>和<span class="emphasis"><em>pager</em></span>菜单中开始一封新邮件时使用。</p><div class="table"><a id="tab-key-send"></a><p class="title"><b>表2.10.</b><b>发送邮件常用按键</b></p>
+        <div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="sending-intro"></a>5.1.简介</h3></div></div></div>
+        <p>表2.10 “发送邮件常用按键”列出的按键可在<span class="emphasis"><em>index</em></span>和<span class="emphasis"><em>pager</em></span>菜单中开始一封新邮件时使用。</p><div class="table"><a id="tab-key-send"></a><p class="title"><b>表2.10.</b><b>发送邮件常用按键</b></p>
 <table border="1"><colgroup><col><col><col></colgroup><thead><tr><th>按键</th><th>功能</th><th>描述</th></tr></thead><tbody><tr><td>m</td><td><code class="literal">&lt;compose&gt;</code></td><td>撰写新邮件</td></tr><tr><td>r</td><td><code class="literal">&lt;reply&gt;</code></td><td>回复发件人</td></tr><tr><td>g</td><td><code class="literal">&lt;group-reply&gt;</code></td><td>回复所有收件人</td></tr><tr><td>L</td><td><code class="literal">&lt;list-reply&gt;</code></td><td>回复到邮件列表</td></tr><tr><td>f</td><td><code class="literal">&lt;forward&gt;</code></td><td>转发邮件</td></tr><tr><td>b</td><td><code class="literal">&lt;bounce&gt;</code></td><td>bounce (remail)邮件</td></tr><tr><td>ESC k</td><td><code class="literal">&lt;mail-key&gt;</code></td><td>给某人发送一个PGP的公钥</td></tr></tbody></table></div><p><span class="emphasis"><em>bounce</em></span>邮件将原样发送邮件到你指定的收件人。<span class="emphasis"><em>转发</em></span>邮件允许你添加注释或修改你要转发的邮件。这些功能将在下一章“<span class="quote">转发和bounce邮件</span>”作进一步的讨论。</p>
 <p>之后Mutt会进入<span class="emphasis"><em>编辑</em></span>菜单，并提示你输入“To:”字段。下一步，提示你键入“<span class="quote">Subject</span>:”字段，如果你是回复或转发邮件Mutt已经给你提供了一个预设的主题。$askcc，$askbcc，$autoedit，$bounce，$fast_reply，和$include这些变量将决定Mutt怎样处理这些问题。</p>
 <p>Mutt会自动启动你在$editor定义的编辑器来编辑邮件正文。如果设置了$edit_headers变量，邮件头将出现在邮件正文的前面。任何你回复的邮件会和变量$attribution，$indent_string，$post_indent_string一起按顺序加入邮件。转发邮件时，如果$mime_forward为no，你转发邮件的副本将包含进去。如果你指定了$signature，它将会被附加到邮件中。</p>
 <p>当你编辑完成邮件正文，你将返回<span class="emphasis"><em>编辑</em></span>菜单，编辑菜单提供了一些功能可用来修改、发送、推迟发送邮件，如表2.11“编辑菜单常用按键”所示。</p><div class="table"><a id="tab-func-compose"></a><p class="title"><b>表2.11.</b><b>编辑菜单常用按键</b></p><table border="1"><colgroup><col><col><col></colgroup><thead><tr><th>按键</th><th>功能</th><th>描述</th></tr></thead><tbody><tr><td>a</td><td><code class="literal">&lt;attach-file&gt;</code></td><td>添加文件作为附件</td></tr><tr><td>A</td><td><code class="literal">&lt;attach-message&gt;</code></td><td>附加邮件作为附件</td></tr><tr><td>ESC k</td><td><code class="literal">&lt;attach-key&gt;</code></td><td>添加一个PGP公钥</td></tr><tr><td>d</td><td><code class="literal">&lt;edit-description&gt;</code></td><td>编辑附件的描述</td></tr><tr><td>D</td><td><code class="literal">&lt;detach-file&gt;</code></td><td>删除文件</td></tr><tr><td>t</td><td><code class="literal">&lt;edit-to&gt;</code></td><td>编辑“To”字段</td></tr><tr><td>ESC f</td><td><code class="literal">&lt;edit-from&gt;</code></td><td>编辑“From”字段</td></tr><tr><td>r</td><td><code class="literal">&lt;edit-reply-to&gt;</code></td><td>编辑“Reply-To”字段</td></tr><tr><td>c</td><td><code class="literal">&lt;edit-cc&gt;</code></td><td>编辑“Cc”字段</td></tr><tr><td>b</td><td><code class="literal">&lt;edit-bcc&gt;</code></td><td>编辑“Bcc”字段</td></tr><tr><td>y</td><td><code class="literal">&lt;send-message&gt;</code></td><td>发送邮件</td></tr><tr><td>s</td><td><code class="literal">&lt;edit-subject&gt;</code></td><td>编辑主题</td></tr><tr><td>S</td><td><code class="literal">&lt;smime-menu&gt;</code></td><td>S/MIME选项</td></tr><tr><td>f</td><td><code class="literal">&lt;edit-fcc&gt;</code></td><td>指定“<span class="quote">Fcc</span>”信箱</td></tr><tr><td>p</td><td><code class="literal">&lt;pgp-menu&gt;</code></td><td>PGP选项</td></tr><tr><td>P</td><td><code class="literal">&lt;postpone-message&gt;</code></td><td>推迟发送邮件</td></tr><tr><td>q</td><td><code class="literal">&lt;quit&gt;</code></td><td>取消发送</td></tr><tr><td>w</td><td><code class="literal">&lt;write-fcc&gt;</code></td><td>保存邮件到某个文件夹</td></tr><tr><td>i</td><td><code class="literal">&lt;ispell&gt;</code></td><td>拼写检查（如果你的系统支持）</td></tr><tr><td>^F</td><td><code class="literal">&lt;forget-passphrase&gt;</code></td><td>从存储中清除密码</td></tr></tbody></table></div><p>编辑菜单也被用来编辑附件，无论它是文件还是其它邮件。<code class="literal">&lt;attach-message&gt;</code>功能将会提示选择一个文件夹，然后你在该文件夹中标记你的要添加的邮件，它们将作为附件发送出去。</p><div class="note"><h3 class="title">注意</h3>
-	<p>请注意在这个文件夹中一些操作像编辑新邮件，转发、回复邮件等是不被允许的。变量$status_format中的状态指示器%r将会变为“A”，表示你处在attach-message模式。</p></div></div>
+    <p>请注意在这个文件夹中一些操作像编辑新邮件，转发、回复邮件等是不被允许的。变量$status_format中的状态指示器%r将会变为“A”，表示你处在attach-message模式。</p></div></div>
 <div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="edit-header"></a>5.2.编辑邮件头</h3></div></div></div>
-		<p>在编辑邮件头时，有一些邮件头不会被包含在发送出去的邮件中，这称之为伪邮件头。</p>
-		<div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="fcc-header"><a id="sending-crypto"></a> 5.2.1.</a>Fcc:伪邮件头</h4></div></div></div>
-				<p>如果你指定”<code class="literal">Fcc:</code><span class="emphasis"><em>文件</em></span>“作为一个邮件头，Mutt会保存邮件到<span class="emphasis"><em>文件</em></span>，就像你在<span class="emphasis"><em>编辑</em></span>菜单使用了<code class="literal">&lt;edit-fcc&gt;</code>功能一样。</p></div>
-			<div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="attach-header"> 5.2.2.</a>Attach:伪邮件头</h4></div></div></div><p>你也可以通过在邮件头中指定”<code class="literal">Attach:</code> <span class="emphasis"><em>文件</em></span> [ <span class="emphasis"><em>说明</em></span> ]“ 的方式添加附件，其中”<span class="emphasis"><em>文件</em></span>“是需要添加的附件，”<span class="emphasis"><em>描述</em></span>“是一个可选的字符串，用于说明所添加的文件。</p></div><div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="pgp-header"> 5.2.3.</a>Pgp:伪邮件头</h4></div></div></div><p>如果你想使用PGP，可以指定</p>
+        <p>在编辑邮件头时，有一些邮件头不会被包含在发送出去的邮件中，这称之为伪邮件头。</p>
+        <div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="fcc-header"><a id="sending-crypto"></a> 5.2.1.</a>Fcc:伪邮件头</h4></div></div></div>
+                <p>如果你指定”<code class="literal">Fcc:</code><span class="emphasis"><em>文件</em></span>“作为一个邮件头，Mutt会保存邮件到<span class="emphasis"><em>文件</em></span>，就像你在<span class="emphasis"><em>编辑</em></span>菜单使用了<code class="literal">&lt;edit-fcc&gt;</code>功能一样。</p></div>
+            <div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="attach-header"> 5.2.2.</a>Attach:伪邮件头</h4></div></div></div><p>你也可以通过在邮件头中指定”<code class="literal">Attach:</code> <span class="emphasis"><em>文件</em></span> [ <span class="emphasis"><em>说明</em></span> ]“ 的方式添加附件，其中”<span class="emphasis"><em>文件</em></span>“是需要添加的附件，”<span class="emphasis"><em>描述</em></span>“是一个可选的字符串，用于说明所添加的文件。</p></div><div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="pgp-header"> 5.2.3.</a>Pgp:伪邮件头</h4></div></div></div><p>如果你想使用PGP，可以指定</p>
 <p><code class="literal">Pgp:</code> [ <code class="literal">E</code> | <code class="literal">S</code> | <code class="literal">S</code> <em><span class="emphasis">&lt;id&gt;</span></em> ]</p>
 <p>“E”表示加密，“ S ”表示签名，“<span class="quote">S&lt;id&gt;</span>”表示使用给定的密钥来签名，这个会长期地影响变量$pgp_sign_as的值。</p></div><div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="in-reply-to-header"> 5.2.4.</a>In-Reply-To:邮件头</h4></div></div></div><p>回复邮件时，<span class="emphasis"><em>In-Reply-To:</em></span>字段包含了你所回复邮件的Message-Id。如果删除这个字段，则不会生成<span class="emphasis"><em>References:</em></span>字段，<span class="emphasis"><em>References:</em></span>字段允许你创建一个新的thread邮件，例如，创建一封到邮件列表的新邮件，而不用输入列表的地址。</p></div></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title">5.3.加密/签名邮件</h3></div></div></div><p>如果你使用PGP或S/MIME来加密邮件，当邮件被发送前，mutt它会引导你选择一个密钥来处理邮件。如果有一个密钥的user ID和收件人的地址匹配，那么Mutt就不会有任何提示，直接使用这个密钥。不过，还会可能出现某些情况，有几个密钥；未验证的user ID；或者没有找到匹配的密钥。</p>
 <p>在这些情况下，mutt会出现一个包含密钥清单的菜单，你可以从中选择一个。当退出这个菜单，或找不到任何匹配的密钥时，mutt会提示你输入user ID 。你可以使用按键<code class="literal">^G</code>来取消。当你这样做了，mutt会返回到编辑菜单。</p>
@@ -756,7 +756,7 @@ bind editor &lt;delete&gt; backspace
 <p>第二个字符描述了密钥的签名能力。同样的，减号“<span class="quote">-</span>”表示“<span class="quote">不用于签名</span>”，符号点“<span class="quote">.</span>”表示改密钥被标记为用于某个user ID的加密，“s”表示可以用于加密。</p>
 <p>最后，有效性字段（%t）描述了user-id的有效性。问号（“<span class="quote">?</span>”）表示未定义有效性，减号（“<span class="quote">-</span>”）表示其被标记为一个不被信任的交往，空白符表示一个不完全信任的交往，加号（“<span class="quote">+</span>”）表示完全完有效。</p></div>
 <div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="sending-mixmaster"></a>5.4 通过mixmaster发送匿名邮件</h3></div></div></div>
-	<p>你可以编译mutt让它可以同Mixmaster（一个匿名转投系统）很好的协作。Mixmaster允许你通过一条转投系统链匿名发送邮件。Mixmaster支持mutt的版本是2.04（beta 45似乎是最新的）和2.03。早期的版本或后来所谓的3 betas（最新的大概是2.9b23）都不支持mutt。</p>
+    <p>你可以编译mutt让它可以同Mixmaster（一个匿名转投系统）很好的协作。Mixmaster允许你通过一条转投系统链匿名发送邮件。Mixmaster支持mutt的版本是2.04（beta 45似乎是最新的）和2.03。早期的版本或后来所谓的3 betas（最新的大概是2.9b23）都不支持mutt。</p>
 <p>要使用它，你须遵守一定的规则。最重要的是，你不能使用<code class="literal">Cc</code>和<code class="literal">Bcc</code>字段。告诉mutt要使用mixmaster，你必须先在编辑菜单使用mix功能选择一条转投系统链。</p>
 <p>选择链的菜单分为两部分。在上半（大的）部分中，会列出一个你可以使用的转投系统的清单。在下半部分中，是当前选择的转投系统链。</p>
 <p>你可以使用功能<code class="literal">&lt;chain-prev&gt;</code>和<code class="literal">&lt;chain-next&gt;</code>来浏览链，默认情况下，这两个功能被绑定在向左、向右箭头和<code class="literal">h</code>、<code class="literal">l</code>键上（思考一下vi的键盘绑定）。在当前位置插入一个转投系统，使用功能<code class="literal">&lt;insert&gt;</code>。将一个转投系统附加到当前链，使用<code class="literal">&lt;select-entry&gt;</code>或<code class="literal">&lt;append&gt;</code>。你也可以使用相应的功能从链中删除一个条目。最后，要放弃更改，直接退出菜单，否则使用功能<code class="literal">&lt;accept&gt;</code>（默认为按键<code class="literal">Return</code>）应用它们。</p>
@@ -764,7 +764,7 @@ bind editor &lt;delete&gt; backspace
 
 <!--
 <div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="ff"> 5.5 </a>发送format=flowed邮件</h3></div></div></div>
-	<div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="ff-concept"> 5.5.1 </a>概念</h4></div></div></div><p><code class="literal">format=flowed</code>（或简称为<code class="literal">f=f</code>）格式的邮件是接收端可以重新格式化的<code class="literal">text/plain</code>邮件。从技术上讲，this is achieved by letting lines of a “<span class="quote">flowable</span>” paragraph end in spaces except for the last line。</p>
+    <div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="ff-concept"> 5.5.1 </a>概念</h4></div></div></div><p><code class="literal">format=flowed</code>（或简称为<code class="literal">f=f</code>）格式的邮件是接收端可以重新格式化的<code class="literal">text/plain</code>邮件。从技术上讲，this is achieved by letting lines of a “<span class="quote">flowable</span>” paragraph end in spaces except for the last line。</p>
 <p>对于文字模式的客户端比如mutt，会假定使用的是标准的80x25的终端，但接收方可能希望重新决定怎样查看邮件。</p></div><div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="ff-support"> 5.5.2 </a>Mutt支持</h4></div></div></div><p>Mutt只支持在发送邮件时设置所需的<code class="literal">format=flowed</code>MIME参数，如果设置了变量$text_flowed，pecifically it does not add the trailing spaces。</p>
 <p>在进入编辑菜单前的第一次编写邮件内容后，mutt会适当地space-stuffes邮件。<span class="emphasis"><em>Space-stuffing</em></span>是定义<code class="literal">format=flowed</code>的RFC3676所要求的，它会按如下方式来处理space：</p><div class="itemizedlist"><ul type="disc"><li><p>开始，所有线路的空间</p></li><li><p>线路起点改为“ <code class="literal"><span class="quote">From</span></code> ” ，接着空间</p></li><li><p>所有线路开始“ <code class="literal"><span class="quote">&gt;</span></code> “是不是要回复性质</p></li></ul></div><div class="note"><h3 class="title">注意</h3><p>Mutt中只支持空间填充第一两种类型的行而不是第三：这是不可能的安全检测是否领先<code class="literal">&gt;</code>的性质开始报价或没有。此外， Mutt中只适用于空间填充<em><span class="emphasis">一次</span></em>修改后的初步完成。</p></div><p>所有领先的空间将被删除，接受客户来恢复原来的邮件之前，进一步处理。</p></div><div class="sect3" lang="en"><div class="titlepage"><div><div><h4 class="title"><a id="ff-editor"> 5.5.3 </a>编辑因素</h4></div></div></div><p>由于狗没有提供额外的功能来撰写<code class="literal">f=f</code> F的消息，这是完全由用户和他的编辑器来产生适当的信息。请考虑您编辑的文档如果您打算派遣<code class="literal">f=f</code> F的消息。</p>
 <p>请注意，当编辑邮件从撰写菜单前几次真正发送邮件，它的行动，以确保用户的信息是正确的空间填充。</p>
@@ -823,7 +823,7 @@ fo-table</code> for details.
 <p>如果$mime_forward为no，变量$weed的设置会影响包含邮件头的情况。</p>
 <p>编辑转发的邮件和发送，回复邮件一样。</p></div>
 <div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="postponing-mail">7.暂缓发送邮件</a></h2></div></div></div>
-	<p>经常想要暂缓发送一封你已经开始编辑的邮件。在<span class="emphasis"><em>编辑</em></span>菜单中调用了<code class="literal">&lt;postpone-message&gt;</code>功能后，你的邮件的正文和附件都将存储在$postponed变量所指定的信箱中。你可以重新调出邮件，即使你已经退出，一段时间后再重新启动了Mutt。</p>
+    <p>经常想要暂缓发送一封你已经开始编辑的邮件。在<span class="emphasis"><em>编辑</em></span>菜单中调用了<code class="literal">&lt;postpone-message&gt;</code>功能后，你的邮件的正文和附件都将存储在$postponed变量所指定的信箱中。你可以重新调出邮件，即使你已经退出，一段时间后再重新启动了Mutt。</p>
 <p>一旦邮件被暂缓了，有以下几种方法可以继续它。在命令行中你可以使用选项“-P”，或者当你从<span class="emphasis"><em>index</em></span>或<span class="emphasis"><em>pager</em></span>编辑新邮件时，Mutt将询问你是否发送被暂缓的邮件，如果有的话。如果有多封邮件被暂缓，会弹出一个<span class="emphasis"><em>postponed</em></span>菜单，你可以选择要继续的邮件。</p><div class="note"><h3 class="title">注意</h3><p>如果你暂缓了回复的邮件，邮件回复设置只有在发送后生效。同样地，你必须在与你回复邮件相同的文件夹，以便邮件的状态被更新。</p></div><p>参考$postpone。</p></div></div>
 
 <div class="chapter" lang="en"><div class="titlepage"><div><div><h2 class="title"><a id="configuration"></a>第3章.配置文件</h2></div></div></div><div class="toc"><p><b>目录</b></p><dl><dt><span class="sect1"><a href="#configuration-files">1.</a></span><span class="sect1"><a href="#configuration-files">配置文件的位置</a></span></dt>
@@ -875,23 +875,23 @@ set record=+sent_on_$HOSTNAME</pre></div><p>会导致Mutt将已发送的邮件�
 <p>如果可能的话，应该避免使用这种机制。因为这会带来以下的一些问题：</p><div class="itemizedlist"><ul type="disc"><li><p>These variables should be set early in a configuration file with $charset preceding $config_charset so Mutt know what character set to convert to.</p></li><li><p>如果设置了$config_charset，那么每一个配置文件都应该使用这个字符集来编码，因为这它是个全局变量而<span class="emphasis"><em>不是</em></span>只对一个配置文件有效的。</p></li><li><p>Because Mutt first recodes a line before it attempts to parse it, a conversion introducing question marks or other characters as part of errors (unconvertable characters, transliteration) may introduce syntax errors or silently change the meaning of certain tokens (e.g. inserting question marks into regular expressions).</p></li></ul></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="addrgroup"></a>3. 地址组</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">group</code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <code class="option">-rx</code>
 <em class="replaceable"><code>expr</code></em>
-...  |   
+...  |
 
 <code class="option">-addr</code>
 <em class="replaceable"><code>expr</code></em>
 ... }</p></div><div class="cmdsynopsis"><p><code class="command">ungroup</code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 
 <code class="option">-rx</code>
 <em class="replaceable"><code>expr</code></em>
-...  |   
+...  |
 <code class="option">-addr</code>
 <em class="replaceable"><code>expr</code></em>
 ... }</p></div><p>
@@ -919,38 +919,38 @@ folder-hook mutt set sort=threads</pre></div></div><div class="sect1" lang="en">
 <p><span class="emphasis"><em>menu</em></span>定义宏在哪些<a href="#maps">菜单</a>中有效，可以定义多个菜单，以逗号隔开，中间不能有空格。</p>
 <p><span class="emphasis"><em>key</em></span>和<span class="emphasis"><em>sequence</em></span>与键盘绑定中的用法类似，另外有几点要指出的。首先是<span class="emphasis"><em>sequence</em></span>中的控制字符也可以指定为<span class="emphasis"><em>^x</em></span>。如果要使用符号（“<span class="quote">^</span>”），你需要这样写，“<span class="emphasis"><em>^^</em></span>” 。其次是要指定某个确定的按键如<span class="emphasis"><em>up</em></span>或直接调用某个确定的功能，您应该使用格式<span class="emphasis"><em>&lt;按键名称&gt;</em></span>和<span class="emphasis"><em>&lt;功能名称&gt;</em></span>。按键名称参见小节“更改默认键盘绑定”，功能名称见索引。</p>
 <p>在编写宏时直接使用功能名称的好处是可以忽略当前的键绑定，所以这样可以不依赖用户的键绑定设置。这大大增加了宏的健壮性和可移植性，而且这样的宏可以很容易的被多个用户所使用（比如系统的Muttrc文件）。</p>
-<p>作为可选地设置，在<span class="emphasis"><em>sequence</em></span>之后，你可以输入一些描述性的话，这会显示帮助菜单中。</p><div class="note"><h3 class="title">注意</h3><p>帮助菜单的宏列表中，如果有超出窗口宽度的项会被截断，而不会折行。</p></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both;"><a id="color"></a>9.&nbsp;Using color and mono video attributes(译者注：此节暂未翻译)</h2></div></div></div><p>Usage:</p><div class="cmdsynopsis"><p><code class="command">color</code>   
+<p>作为可选地设置，在<span class="emphasis"><em>sequence</em></span>之后，你可以输入一些描述性的话，这会显示帮助菜单中。</p><div class="note"><h3 class="title">注意</h3><p>帮助菜单的宏列表中，如果有超出窗口宽度的项会被截断，而不会折行。</p></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear: both;"><a id="color"></a>9.&nbsp;Using color and mono video attributes(译者注：此节暂未翻译)</h2></div></div></div><p>Usage:</p><div class="cmdsynopsis"><p><code class="command">color</code>
 <em class="replaceable"><code>object</code></em>
-   
+
 <em class="replaceable"><code>foreground</code></em>
-   
+
 <em class="replaceable"><code>background</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command">color</code>  { 
+ </p></div><div class="cmdsynopsis"><p><code class="command">color</code>  {
 
 <code class="option">header</code>
-  |   
+  |
 <code class="option">body</code>
- }  
+ }
 <em class="replaceable"><code>foreground</code></em>
-   
+
 <em class="replaceable"><code>background</code></em>
-   
+
 <em class="replaceable"><code>regexp</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command">color</code>   
+ </p></div><div class="cmdsynopsis"><p><code class="command">color</code>
 
 <code class="option">index</code>
-   
+
 <em class="replaceable"><code>foreground</code></em>
-   
+
 <em class="replaceable"><code>background</code></em>
-   
+
 <em class="replaceable"><code>pattern</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command">uncolor</code>   
+ </p></div><div class="cmdsynopsis"><p><code class="command">uncolor</code>
 <code class="option">index</code>
-  { 
+  {
 
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
 ... }</p></div><p>
 If your terminal supports color, you can spice up Mutt by creating your own
@@ -1000,31 +1000,31 @@ for your xterm), since color names may then lose their normal meaning.
 </p><p>
 If your terminal does not support color, it is still possible change the video
 attributes through the use of the “<span class="quote">mono</span>” command:
-</p><a id="mono"></a><p>Usage:</p><div class="cmdsynopsis"><p><code class="command">mono</code>   
+</p><a id="mono"></a><p>Usage:</p><div class="cmdsynopsis"><p><code class="command">mono</code>
 <em class="replaceable"><code>object</code></em>
-   
+
 <em class="replaceable"><code>attribute</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command">mono</code>  { 
+ </p></div><div class="cmdsynopsis"><p><code class="command">mono</code>  {
 
 <code class="option">header</code>
-  |   
+  |
 <code class="option">body</code>
- }  
+ }
 <em class="replaceable"><code>attribute</code></em>
-   
+
 <em class="replaceable"><code>regexp</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command">mono</code>   
+ </p></div><div class="cmdsynopsis"><p><code class="command">mono</code>
 <code class="option">index</code>
 
-   
+
 <em class="replaceable"><code>attribute</code></em>
-   
+
 <em class="replaceable"><code>pattern</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command">unmono</code>   
+ </p></div><div class="cmdsynopsis"><p><code class="command">unmono</code>
 <code class="option">index</code>
-  { 
+  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 
 <em class="replaceable"><code>pattern</code></em>
 ... }</p></div><p>
@@ -1040,9 +1040,9 @@ ignore *
 unignore from date subject to cc
 unignore organization organisation x-mailer: x-newsreader: x-mailing-list:
 unignore posted-to:
-</pre></div><a id="hdr-order"></a><p>用法：</p><div class="cmdsynopsis"><p><code class="command">hdr_order</code> <code><em class="replaceable">header</em></code> [ <code><em class="replaceable">header</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unhdr_order</code>  { 
+</pre></div><a id="hdr-order"></a><p>用法：</p><div class="cmdsynopsis"><p><code class="command">hdr_order</code> <code><em class="replaceable">header</em></code> [ <code><em class="replaceable">header</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unhdr_order</code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>header</code></em>
 ... }</p></div><p>使用命令<code class="literal">hdr_order</code>你可以指定一个顺序，在你阅读邮件时mutt将按照这个顺序显示邮件头字段。</p>
 <p>“<span class="quote">unhdr_order *</span>”will clear all previous headers from the order list, thus removing the header order effects set by the system-wide startup file. </p><div class="example"><a id="ex-hdr-order"></a><p class="title"><b>例3.9.</b><b>邮件头显示顺序</b></p><pre class="screen">
@@ -1050,9 +1050,9 @@ hdr_order From Date: From: To: Cc: Subject:
 </pre></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="alternates"></a>11. 后备地址</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">alternates</code> [ <code class="option">-group</code> <code><em class="replaceable">name</em></code> ... ] <code><em class="replaceable">regexp</em></code> [ <code><em class="replaceable">regexp</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unalternates</code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>regexp</code></em>
 ... }</p></div><p>根据不同的对象，mutt会以不用的方式对待邮件，这取决于你是发件人还是收件人等等。例如，当你回复一封由你发出的邮件，mutt会自动发给这封邮件的原始收件人——一般来讲，你向你自己发一封信是没有意义的（参见$reply_to）。</p>
 <p>许多用户使用不同的地址接受电子邮件。要充分利用mutt的这个特性，就必须让mutt你的电子邮件地址。这就是<code class="literal">alternates</code>命令的目的：它可以使用多个正则表达式来指定你的邮件地址。</p>
@@ -1064,16 +1064,16 @@ alternates &#39;^user@example$&#39;
 <p>要从<code class="literal">alternates</code>的指定中删除一个正则表达式，利用<code class="literal">unalternates</code>命令来指定这个<span class="emphasis"><em>regexp</em></span>。同样的，如果<code class="literal">alternates</code>的<span class="emphasis"><em>regexp</em></span>匹配<code class="literal">unalternates</code>上的条目，<code class="literal">unalternates</code>的条目就会被移除。如果<code class="literal">unalternates</code>的<span class="emphasis"><em>regexp</em></span>指定为“<span class="quote">*</span>”，那么<code class="literal">alternates</code>的<span class="emphasis"><em>所有条目</em></span>都会被移除。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="lists"></a>12.邮件列表</h2></div></div></div><a id="subscribe"></a><p>用法：</p><div class="cmdsynopsis"><p><code class="command">lists</code> [ <code class="option">-group</code> <code><em class="replaceable">name</em></code> ... ] <code><em class="replaceable">regexp</em></code> [ <code><em class="replaceable">regexp</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unlists</code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>regexp</code></em>
 ... }</p></div><div class="cmdsynopsis"><p><code class="command">subscribe</code> [ <code class="option">-group</code> <code><em class="replaceable">name</em></code> ... ] <code><em class="replaceable">regexp</em></code> [ <code><em class="replaceable">regexp</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unsubscribe</code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>regexp</code></em>
 ... }</p></div><p>在处理邮件列表方面Mutt有一些不错的特性。为了充分利用它们，你必须指定哪些地址属于邮件列表，以及你订阅了哪些邮件列表。一旦你做了这些，<a href="#list-reply"><code class="literal">&lt;list-reply&gt;</code></a>功能就能很好的工作。此外，当你向已订阅的列表发送邮件时，mutt会在邮件头中加入一个“Mail-Followup-To”字段，以告诉其他用户的邮件客户端不要回复到你的邮件地址。</p><div class="note"><h3 class="title">注意</h3><p>“Mail-Followup-To”字段是非标准扩展，并不被所有的邮件客户端支持。添加它并不能完全防止收到个人直接CC来的邮件。也要注意Mail-Followup-To字段的生成是由变量$followup_to控制的。</p></div><p>更确切地说，Mutt保持了一个清单，其中记录了已知的和已订阅的邮件列表地址。每一个订阅的邮件列表是众所周知的。标记一个地址为邮件列表，使用“<span class="quote">list</span>”的命令。标记一个地址为你已经订阅的邮件列表，使用“<span class="quote">subscribe</span>”命令。</p>
 <p>这两个命令你都可使用正则表达式。To mark all messages sent to a specific bug report&#39;s address on mutt&#39;s bug tracking system as list mail，例如，你可以这样写“<span class="quote">subscribe [ 0-9 ] * @ bugs.guug.de</span> ” 。通常，给出邮件地址的一部分就足够了。</p>
@@ -1081,17 +1081,17 @@ alternates &#39;^user@example$&#39;
 <p>使用<code class="literal">-group</code>选项会把随后的所有正则表达式添加到the named group。</p>
 <p>“<span class="quote">unlists</span>”命令从已知的和已订阅的邮件列表清单中删除一个条目。使用“<span class="quote">unlists *</span>”删除所有的条目。</p>
 <p>要从已订阅的邮件列表清单中删除一个条目，但在已知的邮件列表清单中保留它，使用“<span class="quote">unsubscribe</span>”命令。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="mbox-hook"></a>13.使用多个spool信箱</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">mbox-hook</code> <em class="replaceable"><code>[!]pattern</code></em> <em class="replaceable"><code>mailbox</code></em> </p></div><p>此命令是用来将指定邮箱内的已读邮件自动移动到另一个邮箱里面，当你退出或切换文件夹时。<span class="emphasis"><em>pattern</em></span>是一个正则表达式，与其匹配的信箱被当作“<span class="quote">spool</span>”信箱，<span class="emphasis"><em>mailbox</em></span>指定已读邮件被保存到哪一个信箱。</p>
-<p>与其他一些<span class="emphasis"><em>hook</em></span>命令不同，只有<span class="emphasis"><em>第一个</em></span>匹配模式是有效的（因此不可能将已读邮件保存到多个信箱）。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="mailboxes"></a>14.监视新邮件</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">mailboxes</code> <code><em class="replaceable">mailbox</em></code> [ <code><em class="replaceable">mailbox</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unmailboxes</code>  { 
+<p>与其他一些<span class="emphasis"><em>hook</em></span>命令不同，只有<span class="emphasis"><em>第一个</em></span>匹配模式是有效的（因此不可能将已读邮件保存到多个信箱）。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="mailboxes"></a>14.监视新邮件</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">mailboxes</code> <code><em class="replaceable">mailbox</em></code> [ <code><em class="replaceable">mailbox</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unmailboxes</code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>mailbox</code></em>
 ... }</p></div><p>此命令指定信箱，并定时检查其是否收到新邮件。</p>
 <p><span class="emphasis"><em>信箱</em></span>可以是本地目录，也可以文件（取决于Maildir/Mh还是Mbox/Mmdf格式）。如果Mutt被编译进了POP和/或IMAP支持，<span class="emphasis"><em>信箱</em></span>也可以是的POP/IMAP信箱的URL地址。URL语法在1.2节“URL语法”中有说明，POP和IMAP分别在第3节“POP3支持”和第4节“IMAP支持”中说明。</p>
 <p>Mutt提供了许多高级的特性来处理（多个）信箱和其中的新邮件，请参阅第9节“处理多个信箱”获得详细信息（包括what situations以及Mutt检查新邮件的频率）。</p>
 <p>“<span class="quote">unmailboxes</span>:”命令用来从mailboxes定义的文件夹中删除一个信箱。使用“<span class="quote">unmailboxes *</span>”删除所有的信箱。</p><div class="note"><h3 class="title">注意</h3><p><code class="literal">mailboxes</code>命令中的信箱在命令执行时被确定，因此，如果定义这些信箱时用的名称中包含快捷字符（如“<span class="quote">=</span>”和“！”），任何对这些快捷字符由影响的变量（如$folder和$spoolfile）应在<code class="literal">mailboxes</code>命令之前定义。如果没有这些快捷字符，定义信箱时应使用绝对路劲。否则mutt会试图在mutt启动的地方以相对路径的方式寻找信箱，这样会造成很多麻烦。</p></div><p>Mbox和Mmdf格式的信箱，新邮件的检测是通过比较文件的访问和/或修改时间：如果文件在被修改之后没有被访问的话，Mutt就认为文件中又新邮件。一些工具像<code class="literal">biff</code>或<code class="literal">frm</code>或任何其他会访问信箱的程序可能会导致Mutt发现不了的新邮件，如果它们不恰当地重置访问时间的话。其他可能导致Mutt发现不了新邮件的原因是一些备份工具（更新了访问时间）或文件系统被挂载时没有使用更新访问时间支持。</p>
-<p>如果Mbox或Mmdf格式的信箱在检测新邮件时有一些不可靠，可以使用$check_mbox_size选项使Mutt以跟踪检测文件大小的方式来检查新邮件。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="my-hdr"></a>15.自定义邮件头</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">my_hdr</code> <em class="replaceable"><code>string</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">unmy_hdr</code>  { 
+<p>如果Mbox或Mmdf格式的信箱在检测新邮件时有一些不可靠，可以使用$check_mbox_size选项使Mutt以跟踪检测文件大小的方式来检查新邮件。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="my-hdr"></a>15.自定义邮件头</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">my_hdr</code> <em class="replaceable"><code>string</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">unmy_hdr</code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>field</code></em>
 ... }</p></div><p><code class="literal">my_hdr</code>命令允许你创建自己的邮件头字段，并会添加到你发送的每一封邮件中。</p>
 <p>例如，如果你想添加一个“<span class="quote">Organization:</span>”字段到你发送的所有邮件中，你可以将命令</p><div class="example"><a id="ex-my-hdr"></a><p class="title"><b>例3.10.</b><b>自定义邮件头</b></p><pre class="screen">
@@ -1125,14 +1125,14 @@ save-hook aol\\.com$ +spam
 message-hook ~A &#39;set pager=builtin&#39;
 message-hook &#39;~f freshmeat-news&#39; &#39;set pager=&quot;less \&quot;+/^  subject: .*\&quot;&quot;&#39;</pre></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="crypt-hook"></a>21. 选择收件人的密钥</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">crypt-hook</code> <em class="replaceable"><code>pattern</code></em> <em class="replaceable"><code>keyid</code></em> </p></div><p>当使用PGP/GnuPG或OpenSSL来加密邮件，你可能希望将一个密钥与某一个地址自动地联系起来，因为不能从改地址推测出所用的公共密钥，也可能因为某中原因你需要改变mutt正常情况下使用的密钥。命令<code class="literal">crypt-hook</code>提供了一个方法，通过这个方法你可以指定一个公钥，在给特定的收件人发信时自动使用它。</p>
 <p>在这里<span class="emphasis"><em>keyid</em></span>的含义广泛的：它可以是key ID的数值、邮件地址、甚至名字。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="push"> 22.</a>添加按键序列到键盘缓冲区</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">push</code> <em class="replaceable"><code>string</code></em> </p></div><p>此命令用来将字符串添加到键盘缓冲区。该字符串可以包含控制字符，按键名称和功能名称，如宏里面的sequence一样。你可以使用它在启动时，或进入某些文件夹时自动的执行一系列命令。例如，下面的命令可以再进入文件夹时自动地折叠全部thread：</p><div class="example"><a id="ex-folder-hook-push"></a><p class="title"><b>例3.12.</b><b>嵌入<code class="literal">push</code>到<code class="literal">folder-hook</code>命令</b></p><pre class="screen">
-folder-hook . &#39;push &lt;collapse-all&gt;&#39;</pre></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="exec"> 23 </a>执行功能</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">exec</code> <code><em class="replaceable">function</em></code> [ <code><em class="replaceable">function</em></code> ... ]</p></div><p>此命令用来执行任意功能。“功能”一节列出了所有的功能。“<span class="quote">exec function</span>”，等同于“<span class="quote">push &lt;function&gt;</span>”。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="score-command"> 24.</a>邮件评分</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">score</code> <em class="replaceable"><code>pattern</code></em> <em class="replaceable"><code>value</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">unscore</code>  { 
+folder-hook . &#39;push &lt;collapse-all&gt;&#39;</pre></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="exec"> 23 </a>执行功能</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">exec</code> <code><em class="replaceable">function</em></code> [ <code><em class="replaceable">function</em></code> ... ]</p></div><p>此命令用来执行任意功能。“功能”一节列出了所有的功能。“<span class="quote">exec function</span>”，等同于“<span class="quote">push &lt;function&gt;</span>”。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="score-command"> 24.</a>邮件评分</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">score</code> <em class="replaceable"><code>pattern</code></em> <em class="replaceable"><code>value</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">unscore</code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
 ... }</p></div><p><code class="literal">score</code>命令的作用是当邮件与<span class="emphasis"><em>pattern</em></span>匹配时，给邮件加上值为<span class="emphasis"><em>value</em></span>的分数。<span class="emphasis"><em>pattern</em></span>是一个字符串，其格式在“模式”一节有所描述（注：为了提高效率，需要扫描整个邮件的模式在index菜单不可用，如<code class="literal">˜b</code>、<code class="literal">˜B</code>或<code class="literal">˜h</code>）。<span class="emphasis"><em>value</em></span>是一个正数或负数。一条邮件最后得的总分等于所有与其匹配的<code class="literal">score</code>条目的总和。不过，你可以在<span class="emphasis"><em>value</em></span>之前使用前缀等号（=），使邮件在匹配pattern时得分等于value。总分为负的记为0。</p>
-<p><code class="literal">unscore</code>命令已定义的score条目中移除一条。您<span class="bold"><strong>必须</strong></span>指定与定义<code class="literal">score</code>时相同的pattern来移除它。pattern“<span class="quote">*</span>”意味者移除所有score定义的条目。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="spam"></a>25.垃圾邮件检测</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">spam</code> <em class="replaceable"><code>pattern</code></em> <em class="replaceable"><code>format</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">nospam</code>  { 
+<p><code class="literal">unscore</code>命令已定义的score条目中移除一条。您<span class="bold"><strong>必须</strong></span>指定与定义<code class="literal">score</code>时相同的pattern来移除它。pattern“<span class="quote">*</span>”意味者移除所有score定义的条目。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="spam"></a>25.垃圾邮件检测</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">spam</code> <em class="replaceable"><code>pattern</code></em> <em class="replaceable"><code>format</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">nospam</code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
  }</p></div><p>Mutt支持外部的垃圾邮件过滤器。通过使用命令<code class="literal">spam</code>和<code class="literal">nospam</code>定义spam模式，你可以根据其垃圾邮件特征来<span class="emphasis"><em>提取</em></span>，<span class="emphasis"><em>搜索</em></span>，<span class="emphasis"><em>排序</em></span>邮件。你还可以在变量$index_format中使用序列<code class="literal">%H</code>，让index菜单中显示邮件的垃圾邮件特征。（Tip: try <code class="literal">%?</code><code class="literal">H?[%H] ?</code> to display spam tags only when they are defined for a given message）</p>
 <p>第一个步骤需要使用命令<code class="literal">spam</code>，定义你的外部过滤器的垃圾邮件模式。<span class="emphasis"><em>pattern</em></span>应该是一个正则表达式，匹配邮件头字段。如果信箱中的任何邮件匹配这个表达式，那么它会收到一个“<span class="quote">spam tag</span> ”或“ <span class="quote">spam attribute</span>”（除非它也匹配<code class="literal">nospam</code>中的pattern，见下文）。这完全是由你来决定的，用参数<span class="emphasis"><em>format</em></span>来控制。 <span class="emphasis"><em>format</em></span>可以是任何静态文本，但它也可以是包括向后引用的<span class="emphasis"><em>pattern</em></span>表达式。（“<span class="quote">向后引用</span>”是指包含在括号中的子表达式）<code class="literal">%1</code>会被替换成正则表达式中一个向后引用的表达式，<code class="literal">%2</code>则被换成第二，等等。</p>
@@ -1151,10 +1151,10 @@ set spam_separator=&quot;, &quot;</pre></div><p>如果我收到一封被DCC用�
 <p>你可以定义任意个<code class="literal">spam</code>或<code class="literal">nospam</code>命令。你甚至可以让mutt进行原始的垃圾邮件检测——例如，如果你认为所有来自<code class="literal">MAILER-DAEMON</code>的邮件都是垃圾邮件，你可以这样使用命令<code class="literal">spam</code>：</p><pre class="screen">
 spam &quot;^From: .*MAILER-DAEMON&quot;       &quot;999&quot;
 </pre></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="set"> 26 </a>设置和查询变量</h2></div></div></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="set-commands"> 26.1 </a>命令</h3></div></div></div><p>下面的命令可以控制和查询变量：</p>
-<p>用法：</p><div class="cmdsynopsis"><p><code class="command">set</code>  { 
+<p>用法：</p><div class="cmdsynopsis"><p><code class="command">set</code>  {
  [ <code class="option">no</code>  |   <code class="option">inv</code> ]
 <em class="replaceable"><code>variable</code></em>
-  |   
+  |
 <em class="replaceable"><code>variable=value</code></em>
  } [...]</p></div><div class="cmdsynopsis"><p><code class="command">toggle</code> <code><em class="replaceable">variable</em></code> [ <code><em class="replaceable">variable</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">unset</code> <code><em class="replaceable">variable</em></code> [ <code><em class="replaceable">variable</em></code> ... ]</p></div><div class="cmdsynopsis"><p><code class="command">reset</code> <code><em class="replaceable">variable</em></code> [ <code><em class="replaceable">variable</em></code> ... ]</p></div><p>这些命令用来设置（或取消）变量。变量有四种基本的类型：布尔，数值，字符串和quadoption。 <span class="emphasis"><em>布尔</em></span>变量可以被<span class="emphasis"><em>设置</em></span>（true）或<span class="emphasis"><em>取消</em></span>（false）。<span class="emphasis"><em>数值</em></span>变量可以被赋值为正整数。 <span class="emphasis"><em>字符串</em></span>变量包括一些可打印字符，如果包含空格或制表符则必须放在引号中，你也可以分别使用转义序列“<span class="quote">\n</span>”和“<span class="quote">\t</span>”来表示换行和退格。<span class="emphasis"><em>quadoption</em></span>变量是用来控制对于某些行为是否给出提示，或指定一个默认的行为。<span class="emphasis"><em>yes</em></span>会使行为自动被执行就好像你对于mutt的问题回答了yes。同样，<span class="emphasis"><em>no</em></span>将使行为不被执行就好像你回答了“<span class="quote">no</span>”。<span class="emphasis"><em>ask-yes</em></span>会触发一个提示，它的默认回答是“<span class="quote">yes</span>”，<span class="emphasis"><em>ask-no</em></span>将触发一个默认回答为“<span class="quote">no</span>”的提示。</p>
 <p>变量前缀“no”将取消该变量。例如：<code class="literal">set noaskbcc</code>。</p>
@@ -1184,9 +1184,9 @@ macro pager &lt;PageDown&gt; &quot;\
 &lt;enter-command&gt; set pager_stop=\$my_old_pager_stop&lt;Enter&gt;\
 &lt;enter-command&gt; unset my_old_pager_stop&lt;Enter&gt;&quot;</pre></div><p>注意在<code class="literal">&lt;enter-command&gt;</code>和配置命令<code class="literal">set</code>之间有一个空格，防止mutt将宏命令保存到记录中。</p></div></div></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="source"> 27.</a>从另一个文件读入配置命令</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">source</code> <em class="replaceable"><code>filename</code></em> </p></div><p>此命令允许使用另外的包含配置命令的文件。例如，我把我定义的所有别名放在<code class="literal">˜/.mail_aliases</code>里，然后可以配置<code class="literal">˜/.muttrc</code>是mutt可以读取我的别名文件，这样我就能集中管理别名。</p>
 <p>如果该文件以波形符（“<span class="quote">~</span>”）开头，这代表它在你的home目录之下。</p>
-<p>如果文件名以竖线（|）结尾，那么<span class="emphasis"><em>filename</em></span>就表示可执行的程序，并且mutt会读取它的输出（例如：<code class="literal">source ˜/bin/myscript|</code>）。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="unhook"> 28.</a>移除hooks</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">unhook</code>  { 
+<p>如果文件名以竖线（|）结尾，那么<span class="emphasis"><em>filename</em></span>就表示可执行的程序，并且mutt会读取它的输出（例如：<code class="literal">source ˜/bin/myscript|</code>）。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="unhook"> 28.</a>移除hooks</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">unhook</code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>hook-type</code></em>
  }</p></div><p>此命令允许你移除已经定义的hooks。你可以使用字符&quot;<span class="quote">*</span>&quot;作为参数来移除所有的hooks，或者你也可以只移除一种类型的hook，就像这样,<code class="literal">unhook send-hook</code>。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="formatstrings"> 29.</a>格式字符串</h2></div></div></div><div class="sect2" lang="en"><div class="titlepage"><div><div><h3 class="title"><a id="formatstrings-basics"> 29.1.</a>基本用法</h3></div></div></div><p>格式字符串是一个常见的概念，你会发现在配置mutt时发现它，特别是在变量$index_format、$pager_format、$status_format和其他“<span class="quote">*_format</span>”变量。它也是很简单的，很可能你已经知道如何使用它们了。</p>
 <p>最基本的格式字符串的元素是一个字符跟一个百分比符号。例如，变量$index_format中的<code class="literal">%s</code>代表邮件的主题字段变数。The“<span class="quote">expandos</span>”available are documented with each format variable, but there are general modifiers available with all formatting expandos, too。Those are our concern here。</p>
@@ -1877,299 +1877,299 @@ folder-hook ^pop &#39;set read_inc=1&#39;</pre></li></ol></div><p>这些设置�
 <p>这条命令会给“<span class="quote">professor@bigschool.edu</span>”发送一封主题为“ <span class="quote">data set for run #2</span>”的邮件。邮件的正文是文件“<span class="quote"></span>˜/run2.dat”的内容。</p>
 <p><span class="emphasis"><em>-a file</em></span>所带的所有文件将以MIME类型作为邮件的附件。要添加若干文件，使用“<span class="quote">--</span>”分隔文件和收件人地址：<code class="literal">mutt -a *.png -- some@one.org</code></p></div>
 <div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="commands">2.配置命令</h2></div></div></div><p>以下是mutt中可用的命令。</p>
-<div class="itemizedlist"><ul type="disc"><li><div class="cmdsynopsis"><p><code class="command"><a href="#account-hook" title="6.&#xA0;Managing multiple accounts">account-hook</a></code>   
+<div class="itemizedlist"><ul type="disc"><li><div class="cmdsynopsis"><p><code class="command"><a href="#account-hook" title="6.&#xA0;Managing multiple accounts">account-hook</a></code>
 <em class="replaceable"><code>pattern</code></em>
 <em class="replaceable"><code>command</code></em>
  </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alias" title="4.&#xA0;Defining/Using aliases">alias</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...]  
+...]
 <em class="replaceable"><code>key</code></em>
-   
+
 <em class="replaceable"><code>address</code></em>
   [
 <em class="replaceable"><code>address</code></em>
 ...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alias" title="4.&#xA0;Defining/Using aliases">unalias</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>key</code></em>
 ... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alternates" title="11.&#xA0;Alternative addresses">alternates</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...]  
+...]
 <em class="replaceable"><code>regexp</code></em>
   [
 <em class="replaceable"><code>regexp</code></em>
 ...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alternates" title="11.&#xA0;Alternative addresses">unalternates</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>regexp</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alternative-order" title="5.&#xA0;MIME Multipart/Alternative">alternative-order</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alternative-order" title="5.&#xA0;MIME Multipart/Alternative">alternative-order</a></code>
 <em class="replaceable"><code>mimetype</code></em>
   [
 <em class="replaceable"><code>mimetype</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alternative-order" title="5.&#xA0;MIME Multipart/Alternative">unalternative-order</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#alternative-order" title="5.&#xA0;MIME Multipart/Alternative">unalternative-order</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>mimetype</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#auto-view" title="4.&#xA0;MIME Autoview">auto-view</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#auto-view" title="4.&#xA0;MIME Autoview">auto-view</a></code>
 <em class="replaceable"><code>mimetype</code></em>
   [
 <em class="replaceable"><code>mimetype</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#auto-view" title="4.&#xA0;MIME Autoview">unauto-view</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#auto-view" title="4.&#xA0;MIME Autoview">unauto-view</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>mimetype</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#bind" title="5.&#xA0;Changing the default key bindings">bind</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#bind" title="5.&#xA0;Changing the default key bindings">bind</a></code>
 <em class="replaceable"><code>map</code></em>
-   
+
 <em class="replaceable"><code>key</code></em>
-   
+
 <em class="replaceable"><code>function</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#charset-hook" title="6.&#xA0;Defining aliases for character sets ">charset-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#charset-hook" title="6.&#xA0;Defining aliases for character sets ">charset-hook</a></code>
 <em class="replaceable"><code>alias</code></em>
-   
+
 <em class="replaceable"><code>charset</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#charset-hook" title="6.&#xA0;Defining aliases for character sets ">iconv-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#charset-hook" title="6.&#xA0;Defining aliases for character sets ">iconv-hook</a></code>
 <em class="replaceable"><code>charset</code></em>
-   
+
 <em class="replaceable"><code>local-charset</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">color</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">color</a></code>
 <em class="replaceable"><code>object</code></em>
-   
+
 <em class="replaceable"><code>foreground</code></em>
-   
+
 <em class="replaceable"><code>background</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">color</a></code>  { 
+ </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">color</a></code>  {
 <code class="option">header</code>
-  |   
+  |
 <code class="option">body</code>
- }  
+ }
 <em class="replaceable"><code>foreground</code></em>
-   
+
 <em class="replaceable"><code>background</code></em>
-   
+
 <em class="replaceable"><code>regexp</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">color</a></code>   
+ </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">color</a></code>
 <code class="option">index</code>
-   
+
 <em class="replaceable"><code>foreground</code></em>
-   
+
 <em class="replaceable"><code>background</code></em>
-   
+
 <em class="replaceable"><code>pattern</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">uncolor</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#color" title="9.&#xA0;Using color and mono video attributes">uncolor</a></code>
 <code class="option">index</code>
-   
+
 <em class="replaceable"><code>pattern</code></em>
-... </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#exec" title="23.&#xA0;Executing functions">exec</a></code>   
+... </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#exec" title="23.&#xA0;Executing functions">exec</a></code>
 <em class="replaceable"><code>function</code></em>
   [
 <em class="replaceable"><code>function</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#fcc-hook" title="17.&#xA0;Specify default Fcc: mailbox when composing">fcc-hook</a></code>   
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#fcc-hook" title="17.&#xA0;Specify default Fcc: mailbox when composing">fcc-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>mailbox</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#fcc-save-hook" title="18.&#xA0;Specify default save filename and default Fcc: mailbox at once">fcc-save-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#fcc-save-hook" title="18.&#xA0;Specify default save filename and default Fcc: mailbox at once">fcc-save-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>mailbox</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#folder-hook" title="7.&#xA0;Setting variables based upon mailbox">folder-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#folder-hook" title="7.&#xA0;Setting variables based upon mailbox">folder-hook</a></code>
 <em class="replaceable"><code>[!]regexp</code></em>
-   
+
 <em class="replaceable"><code>command</code></em>
  </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#addrgroup" title="3.&#xA0;Address groups">group</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <code class="option">-rx</code>
 <em class="replaceable"><code>expr</code></em>
-...  |   
+...  |
 <code class="option">-addr</code>
 <em class="replaceable"><code>expr</code></em>
 ... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#addrgroup" title="3.&#xA0;Address groups">ungroup</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <code class="option">-rx</code>
 <em class="replaceable"><code>expr</code></em>
-...  |   
+...  |
 <code class="option">-addr</code>
 <em class="replaceable"><code>expr</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#hdr-order">hdr_order</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#hdr-order">hdr_order</a></code>
 <em class="replaceable"><code>header</code></em>
   [
 <em class="replaceable"><code>header</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#hdr-order">unhdr_order</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#hdr-order">unhdr_order</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>header</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#ignore" title="10.&#xA0;Message header display">ignore</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#ignore" title="10.&#xA0;Message header display">ignore</a></code>
 <em class="replaceable"><code>pattern</code></em>
   [
 <em class="replaceable"><code>pattern</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#ignore" title="10.&#xA0;Message header display">unignore</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#ignore" title="10.&#xA0;Message header display">unignore</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
 ... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#lists" title="12.&#xA0;Mailing lists">lists</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-]  
+]
 <em class="replaceable"><code>regexp</code></em>
   [
 <em class="replaceable"><code>regexp</code></em>
 ...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#lists" title="12.&#xA0;Mailing lists">unlists</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>regexp</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#macro" title="8.&#xA0;Keyboard macros">macro</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#macro" title="8.&#xA0;Keyboard macros">macro</a></code>
 <em class="replaceable"><code>menu</code></em>
-   
+
 <em class="replaceable"><code>key</code></em>
-   
+
 <em class="replaceable"><code>sequence</code></em>
   [
 <em class="replaceable"><code>description</code></em>
-]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mailboxes" title="14.&#xA0;Monitoring incoming mail">mailboxes</a></code>   
+]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mailboxes" title="14.&#xA0;Monitoring incoming mail">mailboxes</a></code>
 <em class="replaceable"><code>mailbox</code></em>
   [
 <em class="replaceable"><code>mailbox</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mailboxes" title="14.&#xA0;Monitoring incoming mail">unmailboxes</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mailboxes" title="14.&#xA0;Monitoring incoming mail">unmailboxes</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>mailbox</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mbox-hook" title="13.&#xA0;Using Multiple spool mailboxes">mbox-hook</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mbox-hook" title="13.&#xA0;Using Multiple spool mailboxes">mbox-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>mailbox</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#message-hook" title="20.&#xA0;Change settings before formatting a message">message-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#message-hook" title="20.&#xA0;Change settings before formatting a message">message-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>command</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mime-lookup" title="7.&#xA0;MIME Lookup">mime-lookup</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mime-lookup" title="7.&#xA0;MIME Lookup">mime-lookup</a></code>
 <em class="replaceable"><code>mimetype</code></em>
   [
 <em class="replaceable"><code>mimetype</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mime-lookup" title="7.&#xA0;MIME Lookup">unmime-lookup</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mime-lookup" title="7.&#xA0;MIME Lookup">unmime-lookup</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>mimetype</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mono">mono</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mono">mono</a></code>
 <em class="replaceable"><code>object</code></em>
-   
+
 <em class="replaceable"><code>attribute</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#mono">mono</a></code>  { 
+ </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#mono">mono</a></code>  {
 <code class="option">header</code>
-  |   
+  |
 <code class="option">body</code>
- }  
+ }
 <em class="replaceable"><code>attribute</code></em>
-   
+
 <em class="replaceable"><code>regexp</code></em>
- </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#mono">mono</a></code>   
+ </p></div><div class="cmdsynopsis"><p><code class="command"><a href="#mono">mono</a></code>
 <code class="option">index</code>
-   
+
 <em class="replaceable"><code>attribute</code></em>
-   
+
 <em class="replaceable"><code>pattern</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mono">unmono</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#mono">unmono</a></code>
 <code class="option">index</code>
-  { 
+  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#my-hdr" title="15.&#xA0;User defined headers">my_hdr</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#my-hdr" title="15.&#xA0;User defined headers">my_hdr</a></code>
 <em class="replaceable"><code>string</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#my-hdr" title="15.&#xA0;User defined headers">unmy_hdr</a></code>  { 
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#my-hdr" title="15.&#xA0;User defined headers">unmy_hdr</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>field</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#crypt-hook" title="21.&#xA0;Choosing the cryptographic key of the recipient">crypt-hook</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#crypt-hook" title="21.&#xA0;Choosing the cryptographic key of the recipient">crypt-hook</a></code>
 <em class="replaceable"><code>pattern</code></em>
-   
+
 <em class="replaceable"><code>keyid</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#push" title="22.&#xA0;Adding key sequences to the keyboard buffer">push</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#push" title="22.&#xA0;Adding key sequences to the keyboard buffer">push</a></code>
 <em class="replaceable"><code>string</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">reset</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">reset</a></code>
 <em class="replaceable"><code>variable</code></em>
   [
 <em class="replaceable"><code>variable</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#save-hook" title="16.&#xA0;Specify default save mailbox">save-hook</a></code>   
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#save-hook" title="16.&#xA0;Specify default save mailbox">save-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>mailbox</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#score" title="3.253.&#xA0;score">score</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#score" title="3.253.&#xA0;score">score</a></code>
 <em class="replaceable"><code>pattern</code></em>
-   
+
 <em class="replaceable"><code>value</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#score" title="3.253.&#xA0;score">unscore</a></code>  { 
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#score" title="3.253.&#xA0;score">unscore</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#reply-hook">reply-hook</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#reply-hook">reply-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>command</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#send-hook" title="19.&#xA0;Change settings based upon message recipients">send-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#send-hook" title="19.&#xA0;Change settings based upon message recipients">send-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>command</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#send2-hook">send2-hook</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#send2-hook">send2-hook</a></code>
 <em class="replaceable"><code>[!]pattern</code></em>
-   
+
 <em class="replaceable"><code>command</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">set</a></code>  { 
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">set</a></code>  {
  [ <code class="option">no</code>  |   <code class="option">inv</code> ]
 <em class="replaceable"><code>variable</code></em>
-  |   
+  |
 <em class="replaceable"><code>variable=value</code></em>
- } [...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">unset</a></code>   
+ } [...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">unset</a></code>
 <em class="replaceable"><code>variable</code></em>
   [
 <em class="replaceable"><code>variable</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#source" title="27.&#xA0;Reading initialization commands from another file">source</a></code>   
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#source" title="27.&#xA0;Reading initialization commands from another file">source</a></code>
 <em class="replaceable"><code>filename</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#spam" title="25.&#xA0;Spam detection">spam</a></code>   
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#spam" title="25.&#xA0;Spam detection">spam</a></code>
 <em class="replaceable"><code>pattern</code></em>
-   
+
 <em class="replaceable"><code>format</code></em>
- </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#spam" title="25.&#xA0;Spam detection">nospam</a></code>  { 
+ </p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#spam" title="25.&#xA0;Spam detection">nospam</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>pattern</code></em>
  }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#subscribe">subscribe</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...]  
+...]
 <em class="replaceable"><code>regexp</code></em>
   [
 <em class="replaceable"><code>regexp</code></em>
 ...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#subscribe">unsubscribe</a></code>  [
 <code class="option">-group</code>
 <em class="replaceable"><code>name</code></em>
-...] { 
+...] {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>regexp</code></em>
-... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">toggle</a></code>   
+... }</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#set" title="26.&#xA0;Setting and Querying Variables">toggle</a></code>
 <em class="replaceable"><code>variable</code></em>
   [
 <em class="replaceable"><code>variable</code></em>
-...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#unhook" title="28.&#xA0;Removing hooks">unhook</a></code>  { 
+...]</p></div></li><li><div class="cmdsynopsis"><p><code class="command"><a href="#unhook" title="28.&#xA0;Removing hooks">unhook</a></code>  {
 <em class="replaceable"><code>*</code></em>
-  |   
+  |
 <em class="replaceable"><code>hook-type</code></em>
  }</p></div></li></ul></div></div>
 
@@ -2633,4 +2633,3 @@ co-developed the original MIME parsing code back in the ELM-ME days.
 这份文档使用<a href="http://docbook.sourceforge.net" target="_top">DocBook</a>写成，
 要翻译它的话可以使用<a href="http://xmlsoft.org/XSLT/" target="_top">Gnome XSLT toolkit</a>。
 </p></div></div></div></body></html>
-
