@@ -1088,7 +1088,7 @@ alternates &#39;^user@example$&#39;
 ... }</p></div><p>此命令指定信箱，并定时检查其是否收到新邮件。</p>
 <p><span class="emphasis"><em>信箱</em></span>可以是本地目录，也可以文件（取决于Maildir/Mh还是Mbox/Mmdf格式）。如果Mutt被编译进了POP和/或IMAP支持，<span class="emphasis"><em>信箱</em></span>也可以是的POP/IMAP信箱的URL地址。URL语法在1.2节“URL语法”中有说明，POP和IMAP分别在第3节“POP3支持”和第4节“IMAP支持”中说明。</p>
 <p>Mutt提供了许多高级的特性来处理（多个）信箱和其中的新邮件，请参阅第9节“处理多个信箱”获得详细信息（包括what situations以及Mutt检查新邮件的频率）。</p>
-<p>“<span class="quote">unmailboxes</span>:”命令用来从mailboxes定义的文件夹中删除一个信箱。使用“<span class="quote">unmailboxes *</span>”删除所有的信箱。</p><div class="note"><h3 class="title">注意</h3><p><code class="literal">mailboxes</code>命令中的信箱在命令执行时被确定，因此，如果定义这些信箱时用的名称中包含快捷字符（如“<span class="quote">=</span>”和“！”），任何对这些快捷字符由影响的变量（如$folder和$spoolfile）应在<code class="literal">mailboxes</code>命令之前定义。如果没有这些快捷字符，定义信箱时应使用绝对路劲。否则mutt会试图在mutt启动的地方以相对路径的方式寻找信箱，这样会造成很多麻烦。</p></div><p>Mbox和Mmdf格式的信箱，新邮件的检测是通过比较文件的访问和/或修改时间：如果文件在被修改之后没有被访问的话，Mutt就认为文件中又新邮件。一些工具像<code class="literal">biff</code>或<code class="literal">frm</code>或任何其他会访问信箱的程序可能会导致Mutt发现不了的新邮件，如果它们不恰当地重置访问时间的话。其他可能导致Mutt发现不了新邮件的原因是一些备份工具（更新了访问时间）或文件系统被挂载时没有使用更新访问时间支持。</p>
+<p>“<span class="quote">unmailboxes</span>:”命令用来从mailboxes定义的文件夹中删除一个信箱。使用“<span class="quote">unmailboxes *</span>”删除所有的信箱。</p><div class="note"><h3 class="title">注意</h3><p><code class="literal">mailboxes</code>命令中的信箱在命令执行时被确定，因此，如果定义这些信箱时用的名称中包含快捷字符（如“<span class="quote">=</span>”和“！”），任何对这些快捷字符由影响的变量（如$folder和$spoolfile）应在<code class="literal">mailboxes</code>命令之前定义。如果没有这些快捷字符，定义信箱时应使用绝对路径。否则mutt会试图在mutt启动的地方以相对路径的方式寻找信箱，这样会造成很多麻烦。</p></div><p>Mbox和Mmdf格式的信箱，新邮件的检测是通过比较文件的访问和/或修改时间：如果文件在被修改之后没有被访问的话，Mutt就认为文件中又新邮件。一些工具像<code class="literal">biff</code>或<code class="literal">frm</code>或任何其他会访问信箱的程序可能会导致Mutt发现不了的新邮件，如果它们不恰当地重置访问时间的话。其他可能导致Mutt发现不了新邮件的原因是一些备份工具（更新了访问时间）或文件系统被挂载时没有使用更新访问时间支持。</p>
 <p>如果Mbox或Mmdf格式的信箱在检测新邮件时有一些不可靠，可以使用$check_mbox_size选项使Mutt以跟踪检测文件大小的方式来检查新邮件。</p></div><div class="sect1" lang="en"><div class="titlepage"><div><div><h2 class="title" style="clear:both"><a id="my-hdr"></a>15.自定义邮件头</h2></div></div></div><p>用法：</p><div class="cmdsynopsis"><p><code class="command">my_hdr</code> <em class="replaceable"><code>string</code></em> </p></div><div class="cmdsynopsis"><p><code class="command">unmy_hdr</code>  {
 <em class="replaceable"><code>*</code></em>
   |
@@ -2556,7 +2556,7 @@ set sort_aux=last-date-received
 <dt><span class="term">%d</span></dt>
 <dd><p>已删除的邮件数量*</p></dd>
 <dt><span class="term">%f</span></dt>
-<dd><p>当前信箱的完整路劲</p></dd>
+<dd><p>当前信箱的完整路径</p></dd>
 <dt><span class="term">%F</span></dt>
 <dd><p>已标记邮件的数量*</p></dd>
 <dt><span class="term">%h</span></dt>
